@@ -43,6 +43,9 @@ function updateCount() {
 		case 'minus1':
 			changeAmt = -1;
 			break;
+		case 'zero':
+			changeAmt = -count.num;
+			break;
 		case 'plus1':
 			changeAmt = 1;
 			break;
